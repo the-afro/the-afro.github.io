@@ -5,6 +5,6 @@
   <title>SSI</title>
  </head>
  <body>
-  <!--#include file="content.html"-->
+  Тестовый текст
 </body>
 </html>
