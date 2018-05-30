@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<title>TAK 123</title>
-</head>
-<body>
-	<?php $page = 'home';include 'include/header.php'; ?>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, laborum.</p>
-	<p>Ea suscipit quas repellendus consequatur beatae ipsa consequuntur pariatur, debitis.</p>
-</body>
+<?php $page = 'home';include 'include/header.php'; ?>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Our Homepage</h1>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
